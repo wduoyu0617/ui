@@ -1,0 +1,22 @@
+{
+  "name": "@buildhub/monorepo",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "clear": "rm -rf **/node_modules **/dist ./pnpm-lock.yaml",
+    "setup": "rm -rf **/node_modules **/dist ./pnpm-lock.yaml && pnpm install",
+    "dev:utils": "pnpm --filter utils dev",
+    "build:utils": "pnpm --filter utils build",
+    "test:utils": "pnpm --filter utils test"
+  },
+  "devDependencies": {
+    "rolldown": "nightly"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^5.5.4"
+  }
+}
