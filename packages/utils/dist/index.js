@@ -1,3 +1,3 @@
-import { isEmpty } from "./object_index-LROduJO7.js";
+import { isEmpty } from "./object-XS1WcfNg.js";
 
 export { isEmpty };
