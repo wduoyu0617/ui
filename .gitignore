@@ -1,5 +1,5 @@
 # 忽略所有目录下的 dist 文件夹
-**/dist/
+**/dist/*
 
 # 忽略 node_modules 目录
 node_modules/
